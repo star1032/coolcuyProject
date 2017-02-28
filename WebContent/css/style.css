@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+html, body, header, div, nav, ul, li, section, article, span,
+h2, h3, h4, h5, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'NanumGothic';
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.clear {
+    clear: both;
+}
+
+/*<----------------------------------------------------->*/
+
+#top_line {
+    height: 3px;
+    background-color: #02a5af;
+}
+#top_back {
+    background-color: #f8f8f8;
+    height: 30px;
+    padding-top: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#small_nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+#small_nav > a {
+    font-size: 12px;
+    color: #999;
+}
+#small_nav > span {
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #ccc;
+}
+#header > nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+#header > nav > ul > li {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#logo {
+    padding-right: 30px;
+}
+#logo > a {
+    color: #02a5af;
+    font-weight: bold;
+    font-size: 26px;
+}
+.nav_text {
+    padding-left: 40px;
+    margin-top: 6px;
+}
+.nav_text > a{
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav_text_color {
+    padding-left: 40px;
+    margin-top: 6px;
+}
+#nav_text_color > a {
+    color: #02a5af;
+    font-weight: 600;
+}
+#nav_line {
+    height: 2px;
+    background-color: #ddd;
+}
+
+/*<----------------------------------------------->*/
+
+#row1 {
+    height: 500px;
+    background-color: #ddd;
+    margin-bottom: 60px;
+}
+
+/*<--------------------------------------------->*/
+
+#row2 {
+    width: 1000px;
+    margin: 0 auto;
+}
+#row2 > .circle {
+    background-color: #eaeaea;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 100px;
+    float: left;
+}
+#circle1 {
+    margin-left: 20px;
+    margin-right: 52px;
+}
+#circle2 {
+    margin-right: 52px;
+}
+#circle3 {
+    margin-right: 52px;
+}
+#circle4 {
+    margin-right: 52px;
+}
+#circle1_icon {
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#circle1_text > a {
+    padding-left: 45px;
+    padding-top: -40px;
+    color: #454b55;
+    font-size: 16px;
+    font-weight: 700;
+}
+#circle1_text > a:hover {
+    color: #02a5af;
+}
+#circle2_icon {
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#circle2_text > a {
+    padding-left: 45px;
+    color: #454b55;
+    font-size: 16px;
+    font-weight: 700;
+}
+#circle3_icon {
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#circle3_text > a {
+    padding-left: 52px;
+    font-size: 16px;
+    color: #454b55;
+    font-weight: 700;
+}
+#circle4_icon {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#circle4_text > a {
+    padding-left: 60px;
+    font-size: 16px;
+    color: #454b55;
+    font-weight: 700;
+}
+#circle5_icon {
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#circle5_text > a {
+    padding-left: 45px;
+    font-size: 16px;
+    color: #454b55;
+    font-weight: 700;
+}
+.over img {
+    display: inline;
+}
+.over img.imgover {
+    display: none;
+}
+a.over:hover {
+    display: inline;
+}
+.over:hover img {
+    display: none;
+}
+.over:hover img.imgover {
+    display: inline;
+}
+/*<------------------------------------->*/
+
+#row3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#row3_01 {
+    width: 305px;
+    height: 300px;
+    background-color: #eee;
+    float: left;
+    margin-left: 140px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+#row3_02 {
+    width: 305px;
+    height: 300px;
+    background-color: #eee;
+    float: left;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+#row3_03 {
+    height: 140px;
+    width: 350px;
+    background-color: #eee;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#row3_03_img {
+    float: right;
+    padding-right: 20px;
+    margin-top: -16px;
+}
+#row3_03_notice {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#row3_04 {
+    width: 350px;
+    height: 140px;
+    background-color: #fff;
+    float: left;
+    /*border: 1px solid #ccc;
+    box-sizing: border-box;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 100px;
+    background-color: #4a3b3b;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

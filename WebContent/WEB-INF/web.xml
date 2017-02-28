@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <filter>
+    <filter-name>encodingFilter</filter-name>
+    <filter-class>com.coolcuy.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>LoginCheckFilter</filter-name>
+    <filter-class>com.coolcuy.filter.LoginCheckFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginCheckFilter</filter-name>
+    <url-pattern>/list.do</url-pattern>
+    <url-pattern>/myPage.do</url-pattern>
+    <url-pattern>/list.jsp</url-pattern>
+    <url-pattern>/rent.do</url-pattern>
+    <url-pattern>/reserveForm.do</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>ControllerUsingURI</servlet-name>
+    <servlet-class>com.coolcuy.controller.ControllerUsingURI</servlet-class>
+    <init-param>
+      <param-name>configFile</param-name>
+      <param-value>
+                /WEB-INF/commandHandlerURI.properties
+            </param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerUsingURI</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+</web-app>

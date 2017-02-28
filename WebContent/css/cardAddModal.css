@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+html, body, header, div, nav, ul, li, section, article, span,
+h2, h3, h4, h5, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'NanumGothic';
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.clear {
+    clear: both;
+}
+
+/*<--------------------------------------------------------->*/
+
+#wrap1 {
+    width: 500px;
+    height: 1000px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.title1 {
+    border-bottom: 2px solid #02a5af;
+    width: 460px;
+    margin: 0 auto;
+}
+.title1 > h2 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row1_td01 {
+    width: 100px;
+    height: 40px;
+    margin-left: 19px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+#td01_text {
+    margin-top: 10px;
+}
+.row1_td02 {
+    width: 360px;
+    height: 40px;
+    margin-left: 119px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+#td02_sel {
+    margin-left: 10px;
+    height: 30px;
+    margin-top: 4px;
+    width: 100px;
+}
+.td02_box01 > input[type="text"]{
+    width: 60px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.td02_box02 > input[type="text"]{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 6px;
+    float: left;
+}
+#box02_text {
+    width: 60px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 120px;
+    margin-top: -25px
+}
+#row1_line {
+    border-bottom: 1px solid #ddd;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#checkbox {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#checkbox_text {
+    font-size: 12px;
+    margin-left: 65px;
+    margin-top: -17px;
+    color: #666;
+}
+#agg_text {
+    margin-left: 65px;
+    margin-top: 5px;
+}
+#agg_text > a {
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: underline;
+}
+#bt_back {
+    margin: 0 auto;
+    width: 500px;
+}
+#bt {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #02a5af;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px 0px #00787f;
+}
+#bt:hover {
+    background-color: #02c6d2;
+}
+#bt_text {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

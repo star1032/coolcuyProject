@@ -4,21 +4,21 @@ package com.coolcuy.calendar;
 //''     value : CarDto 
 //CarDto    : Car and date[][][]
 //date       : char type
-
+////
 //1. Dao Load Cars to DB by Server boot 
 //2. 
 public class MyCalendar {
-	static int years = 10;			// 년
-	static int months = 12;		// 월
-	static int days = 31;			// 일
-	int date[][][] = new int[years][months][days]; // 렌트 대여 date
-	int MonthPerYears = years * months;	// 년당 개월 수
+	static int years = 10;			// �뀈
+	static int months = 12;		// �썡
+	static int days = 31;			// �씪
+	int date[][][] = new int[years][months][days]; // �젋�듃 ���뿬 date
+	int MonthPerYears = years * months;	// �뀈�떦 媛쒖썡 �닔
 	
-	int MonthCnt = 0;	// 월 카운트
-	int initDayOfWeek = 6;	// 초기 월 요일
+	int MonthCnt = 0;	// �썡 移댁슫�듃
+	int initDayOfWeek = 6;	// 珥덇린 �썡 �슂�씪
 	
 	boolean yundal = false;
-	int firstDayOfWeek[] = new int[MonthPerYears];		// 그 달의 첫 요일
+	int firstDayOfWeek[] = new int[MonthPerYears];		// 洹� �떖�쓽 泥� �슂�씪
 	
 	public MyCalendar() {
 		setUp();

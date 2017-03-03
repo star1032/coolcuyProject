@@ -9,32 +9,8 @@
 </head>
 <body>
     <div class="wrap">
-        <header id="header">
-            <div id="top_line">
-            </div>
-            <div id="top_back">
-                <div id="small_nav">
-                    <a href="#">로그인</a><span>|</span>
-                    <a href="#">회원가입</a><span>|</span>
-                    <a href="#">마이페이지</a>
-                </div>
-            </div>
-            
-            
-            <nav>
-                <ul>
-                    <li id="logo"><a href="#">SAMPLE LOGO</a></li>
-                    <li class="nav_text"><a href="#">서비스안내</a></li>
-                    <li class="nav_text"><a href="#">요금안내</a></li>
-                    <li class="nav_text"><a href="#">고객센터</a></li>
-                    <li class="nav_text"><a href="#">이벤트/쿠폰</a></li>
-                    <li id="nav_text_color"><a href="#">실시간예약</a></li>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-            <div id="nav_line"></div>
-        </header>
-        
+         <jsp:include page="/top.jsp"/>
+                
         <section id="row1">
             <div id="row1_text01">실시간예약</div>
             <div id="row1_text02">
@@ -58,7 +34,7 @@
             <div class="row2_text04">차량반납은 반드시 대여지점으로 하셔야 합니다. 차량반납은 반드시 대여지점으로 하셔야 합니다. </div>
             <div class="row2_text04">차량반납은 반드시 대여지점으로 하셔야 합니다. 차량반납은 반드시 대여지점으로 하셔야 합니다. </div>
             <div class="row2_btback">
-                <a href="#">
+                <a href="/version0116/index.jsp">
                     <div class="row2_bt">메인으로</div>
                 </a>
             </div>

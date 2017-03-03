@@ -39,7 +39,7 @@ public class RentHandler implements CommandHandler{
 			System.out.println("등록 실패..");
 		}
 		
-		return "success.jsp";
+		return "member/rentSuccess.jsp";
 	}
 
 }

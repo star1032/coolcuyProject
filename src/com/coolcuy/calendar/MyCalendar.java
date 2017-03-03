@@ -16,7 +16,7 @@ public class MyCalendar {
 	
 	int MonthCnt = 0;	// 월 카운트
 	int initDayOfWeek = 6;	// 초기 월 요일
-	
+	//
 	boolean yundal = false;
 	int firstDayOfWeek[] = new int[MonthPerYears];		// 그 달의 첫 요일
 	

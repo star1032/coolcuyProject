@@ -5,7 +5,7 @@ package com.coolcuy.calendar;
 //CarDto    : Car and date[][][]
 //date       : char type
 
-//1. Dao Load Cars to DB by Server boot 
+//1. Dao Load Cars to DB by Server boot 1
 //2. 
 public class MyCalendar {
 	static int years = 10;			// 년

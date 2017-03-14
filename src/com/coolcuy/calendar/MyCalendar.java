@@ -5,8 +5,9 @@ package com.coolcuy.calendar;
 //CarDto    : Car and date[][][]
 //date       : char type
 
-//1. Dao Load Cars to DB by Server boot 
+//1. Dao Load Cars to DB by Server boot 1
 //2. 
+
 public class MyCalendar {
 	static int years = 10;			// 년
 	static int months = 12;		// 월
@@ -16,7 +17,7 @@ public class MyCalendar {
 	
 	int MonthCnt = 0;	// 월 카운트
 	int initDayOfWeek = 6;	// 초기 월 요일
-	
+	//
 	boolean yundal = false;
 	int firstDayOfWeek[] = new int[MonthPerYears];		// 그 달의 첫 요일
 	

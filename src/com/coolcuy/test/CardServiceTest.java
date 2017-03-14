@@ -31,7 +31,7 @@ public class CardServiceTest {
 				new CardDto("333-456-7892-00", "우리은행", "10/11","851130","1234","a@naver.com")
 				);
 	}
-		
+	
 	@Test
 	public void addAndGet() {
 		addByTest();

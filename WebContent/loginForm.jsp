@@ -14,6 +14,7 @@
 
 <jsp:include page="/top.jsp"/>
 
+<div style="margin-left: 550px; margin-top: 250px">
 <form action="login.do" method="post">
 <c:if test="${errors.idOrPwNotMatch}">
 아이디와 암호가 일치하지 않습니다.
@@ -32,5 +33,6 @@
 </p>	
 <input type="submit" value="로그인">
 </form>
+</div>
 </body>
 </html>
